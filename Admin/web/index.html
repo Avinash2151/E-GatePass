@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter application.">
+  <meta name="google-signin-client_id" content="537564132611-g14abp0jonebnhs90kujtpt71rnghfi2.apps.googleusercontent.com">
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="keepapp">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>NavokiNotes</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDw8c_tey52ry-6RspIakuQElBlWhR6Exw",
+    authDomain: "aakarfoundry-6fabe.firebaseapp.com",
+    databaseURL: "https://aakarfoundry-6fabe.firebaseio.com",
+    projectId: "aakarfoundry-6fabe",
+    storageBucket: "aakarfoundry-6fabe.appspot.com",
+    messagingSenderId: "537564132611",
+    appId: "1:537564132611:web:857c46a2b9590d616a6536",
+    measurementId: "G-J9VBHSCWGE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('flutter_service_worker.js');
+    });
+  }
+</script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

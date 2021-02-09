@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "537564132611",
+    "firebase_url": "https://aakarfoundry-6fabe.firebaseio.com",
+    "project_id": "aakarfoundry-6fabe",
+    "storage_bucket": "aakarfoundry-6fabe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537564132611:android:d9b14c40109c574c6a6536",
+        "android_client_info": {
+          "package_name": "com.navoki.keepapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537564132611-g14abp0jonebnhs90kujtpt71rnghfi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdWms1VRhX6G7Lrei3LmYjd340RGTvG2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537564132611-g14abp0jonebnhs90kujtpt71rnghfi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
